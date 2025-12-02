@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #020d16;
+    padding-top: 200px;
+}
+/* body */
+
+.setting {
+    padding: 40px 0 60px;
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/copy.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.setting-float-panel {
+    width: 938px;
+    height: 608px;
+    background-color: #ffffff;
+    border-radius: 36px;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #000000;
+    padding: 24px 0;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 14px 32px;
+    font-size: 15px;
+    color: #111111;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    text-decoration: underline;
+}
+
+.sidebar li.current {
+    font-weight: 600;
+}
+
+.logout-button {
+    border-top: 1px solid #000000 ;
+    margin-top: 32px;
+    color: #c53a2f;
+}
+
+.content {
+    padding: 32px 40px 40px;
+}
+
+.profile-area {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.setting-pfp-avatar img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.profile-area h2 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.change-photo {
+    border: none;
+    background: none;
+    color: #6e6d79;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.input-forms {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input-info {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 20px;
+    flex: 1;
+}
+
+.email-input, .language-input {
+    grid-column: 1 / -1;
+}
+
+.input-info label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.input-info input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+.language-options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.language-options button {
+    width: 25px;
+    height: 25px;
+    border: 1px solid transparent;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.language-options button img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.general-forms {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.save-button {
+    padding: 11px 26px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #ad312a;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer {
+    background:
+        url("./images/footer.png") 50% / cover no-repeat;
+    height: 312px;
+}
+
+.footer-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25em;
+
+}
+
+.footer-element {
+
+    height: 129px;
+    color: #FFF;
+
+}
+
+.footer-element .link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-element .link a {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFF;
+    padding: 5px 0;
+
+}
+
+.footer-element h1 {
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-element .icon {
+    margin-top: 10px;
+}
+
+.footer-element .icon i {
+    font-size: 22px;
+}
+
+.footer-element .follow {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Poppins sans-serif;
+}
+
+.hr {
+    border-bottom: 2px solid #FFF;
+    margin-top: -50px;
+    width: 100%;
+}
+
+.copyright {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}

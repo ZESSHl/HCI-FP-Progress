@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="settings_style.css"/>
+    <link rel="stylesheet" href="style.css">k
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- La Cuisine Font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<!-- header -->
+
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+                <h1>La cuisine</h1>
+            </div>
+
+
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <div class="navbar">
+                <a href="./home_MamyJean.html">Home</a>
+                <a href="#about">About</a>
+                <a href=""><i class="fa-solid fa-heart"></i> Favorite</a>
+                <a href=""><i class="fa-solid fa-circle-user"></i>Profile</a>
+            
+            </div>
+        </nav>
+    </header>
+
+<!-- settings -->
+
+<main class="setting">
+    <div class="setting-float-panel"> 
+        <aside class="sidebar"> <!-- side panel -->
+            <ul>
+                <li class="current">General</li>
+                <li>Edit Profile</li>
+                <li>Security</li>
+                <li>Privacy</li>
+                <li class="logout-button">Log Out</li>
+            </ul>
+        </aside>
+
+<!-- main panel/general panel -->
+
+        <section class="content">
+            <div class="profile-area">
+                <div class="setting-pfp-avatar">
+                    <img src="./images/Default_pfp.svg.png">
+                </div>
+                <div>
+                    <h2>Peter Griffin</h2>
+                    <button type="button" class="change-photo">Change Photo</button>
+                </div>
+            </div>
+            
+
+            <form class="input-forms">
+                <div class="input-info">
+                    <div class="name-input">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" value="Input Full Name">
+                    </div>
+                    <div class="username-input">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" value="Input Username">
+                    </div>
+                    <div class="email-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" value="example@gmail.com">
+                    </div>
+                    <div class="language-input">
+                        <label>Language</label>
+                        <div class="language-options">
+                            <button type="button" class="active-language"><img src="images/circle-flag-of-usa-free-png.png" alt="English(US)"></button>
+                            <button type="button" class="language"><img src="images/197559.png" alt="Indonesian"></button>
+                            <button type="button" class="language"><img src="images/circle-flag-of-japan-free-png.webp" alt="Japanese"></button>
+                            <button type="button" class="language"><img src="images/china-flat-rounded-flag-with-transparent-background-free-png.png" alt="Mandarin"></button>
+                            <button type="button" class="language"><img src="images/circle-flag-of-india-free-png.webp" alt="Hindi"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="general-forms">
+                    <button type="submit" class="save-button">Save Changes</button>
+                </div>
+            </form>
+
+            </div>
+        </section>
+
+    </div>
+</main>
+
+<!-- footer -->
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-element">
+                <h1>La Cuisine</h1>
+                <p>Fresh and halal meals made easy</p>
+            </div>
+            <div class="footer-element">
+                <div class="link">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Favorite</a>
+                    <a href="">Profile</a>
+                </div>
+            </div>
+            <div class="footer-element">
+                <p class="follow">Follow Us</p>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-youtube"></i>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="hr"></div>
+        <div class="copyright">
+            <p>&copy; 2025 LaCuisine. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
